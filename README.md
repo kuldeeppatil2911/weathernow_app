@@ -1,3 +1,4 @@
+
 # 🌤️ WeatherNow
 
 Your day, your weather, your way. A modern, responsive weather application built with the MERN stack (MongoDB, Express.js, React.js, Node.js) that provides real-time weather data and forecasts for cities worldwide.
@@ -696,6 +697,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Kuldeep Patil]**
 
 *Built for modern web development and weather enthusiasts*
+=======
+# weathernow_app
+ WeatherNow - Your day, your weather, your way. A modern MERN stack weather application.
+<!-- >>>>>>> ed5e302ea9869f9dc52076d56cfdf10f41c148fd -->
