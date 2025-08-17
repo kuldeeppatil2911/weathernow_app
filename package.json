@@ -10,7 +10,7 @@
     "build": "cd client && npm run build",
     "install-client": "cd client && npm install",
     "client-build": "cd client && npm run build",
-    "render-postbuild": "npm run install-client && npm run build",
+    "render-postbuild": "npm install && npm run install-client && npm run build",
     "heroku-postbuild": "npm run install-client && npm run build"
   },
   "keywords": ["weather", "mern", "react", "node", "express"],
