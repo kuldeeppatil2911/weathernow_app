@@ -14,7 +14,7 @@ app.use(helmet());
 app.use(compression());
 app.use(cors());
 app.use(express.json());
-app.use(express.static('client/build'));
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 // OpenWeatherMap API configuration
 const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY || '5fe990c8ab28ed7c82b77f53bf3596f6';
@@ -118,7 +118,7 @@ app.get('/api/health', (req, res) => {
 
 // Serve React app for all other routes
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
 app.listen(PORT, () => {
